@@ -1,0 +1,27 @@
+# Ignore .env file (para configurações de ambiente)
+.env
+
+# Ignore arquivos do sistema (caso esteja usando Mac, Windows, etc)
+.DS_Store
+Thumbs.db
+
+# Ignore diretórios de compilação e outros arquivos temporários
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore IDEs e arquivos de configuração específicos
+.vscode/
+.idea/
+
+# Ignore arquivos de logs
+*.log
+
+# Ignore ambientes virtuais (se estiver usando)
+venv/
+env/
+
+# Ignore arquivos compilados Python
+__pycache__/
+*.pyc
+*.pyo
