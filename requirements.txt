@@ -1,0 +1,7 @@
+python-telegram-bot==13.7
+python-dotenv==0.19.1
+apscheduler==3.8.1
+SQLAlchemy==1.4.27
+Flask==2.1.1
+pytest==7.1.2
+requests==2.26.0

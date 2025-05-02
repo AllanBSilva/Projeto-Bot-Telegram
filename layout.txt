@@ -1,0 +1,32 @@
+furia_bot/
+│
+├── app/                        # Módulo principal do chatbot
+│   ├── __init__.py
+│   ├── main.py                 # Ponto de entrada do bot
+│   ├── config.py               # Configurações (tokens, etc)
+│   ├── handlers/               # Manipuladores das mensagens e interações
+│   │   ├── __init__.py
+│   │   ├── start.py            # Comando de boas-vindas
+│   │   ├── schedule.py         # Comando para ver jogos futuros
+│   │   ├── results.py          # Últimos resultados
+│   │   ├── players.py          # Infos sobre jogadores
+│   │   ├── quotes.py           # Frases famosas
+│   │   ├── store.py            # Info da loja
+│   │   ├── help.py          
+│   │   ├── menu_router.py            
+│   │   ├── live.py             
+│   │   ├── reminder.py         
+│   │   └── quiz.py                           
+├── .env                        # Variáveis de ambiente (não subir no GitHub)
+├── requirements.txt
+├── README.md
+└── run.py                      # Executa o bot localmente
+
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install python-telegram-bot
+
+pip install python-dotenv
+
