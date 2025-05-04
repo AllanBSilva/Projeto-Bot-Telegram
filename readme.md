@@ -179,8 +179,8 @@ furia_bot/
 1. **Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/furia-bot.git
-cd furia-bot
+git clone https://github.com/AllanBSilva/Projeto-Bot-Telegram
+cd Projeto-Bot-Telegram
 ```
 
 2. **Crie e ative o ambiente virtual**
