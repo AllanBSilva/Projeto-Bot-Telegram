@@ -3,8 +3,8 @@ from telegram.ext import CallbackContext
 from datetime import datetime
 
 games_data = [
-    {"date": "2025-05-03", "time": "16:00", "teams": "FURIA vs G2 Esports"},
-    {"date": "2025-05-06", "time": "18:30", "teams": "FURIA vs NAVI"},
+    {"date": "2025-05-05", "time": "16:00", "teams": "FURIA vs G2 Esports"},
+    {"date": "2025-05-07", "time": "18:30", "teams": "FURIA vs NAVI"},
     {"date": "2025-05-10", "time": "20:00", "teams": "FURIA vs FaZe Clan"},
     {"date": "2025-05-13", "time": "15:00", "teams": "FURIA vs Liquid"},
     {"date": "2025-05-17", "time": "19:00", "teams": "FURIA vs Vitality"},

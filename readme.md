@@ -202,7 +202,7 @@ pip install -r requirements.txt
 Crie um arquivo `.env` com o token do seu bot:
 
 ```env
-TELEGRAM_BOT_TOKEN=seu_token_aqui
+TELEGRAM_TOKEN=seu_token_aqui
 ```
 
 5. **Execute o bot**
